@@ -7,7 +7,7 @@ npm install selekt
 ```
 
 ## Usage
-```
+```javascript
 const selekt = require("selekt");
 
 or
