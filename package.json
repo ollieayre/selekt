@@ -6,11 +6,12 @@
 		"type": "git",
 		"url": "https://github.com/ollieayre/selekt.git"
 	},
-	"main": "main.js",
+	"main": "dist/main.js",
 	"scripts": {
 		"build": "tsc",
 		"test": "mocha './src/test/**/*.ts' --compilers ts:ts-node/register",
-		"clean": "rm -rf ./dist"
+		"clean": "rm -rf ./dist",
+		"prepublish": "npm run build"
 	},
 	"author": "Ollie Ayre",
 	"license": "MIT",
