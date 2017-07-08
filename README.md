@@ -1,12 +1,12 @@
-#Selekt
+# Selekt
 A super basic element grabber
 
-##Install
+## Install
 ```
 npm install selekt
 ```
 
-##Usage
+## Usage
 ```
 const selekt = require("selekt");
 
