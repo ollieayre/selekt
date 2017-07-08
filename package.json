@@ -1,26 +1,27 @@
 {
-  "name": "selekt",
-  "version": "0.0.1",
-  "description": "A basic dom element selection library",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ollieayre/selekt.git"
-  },
-  "main": "main.ts",
-  "scripts": {
-    "build": "tsc",
-    "test": "mocha './test/**/*.ts' --compilers ts:ts-node/register"
-  },
-  "author": "Ollie Ayre",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/chai": "^4.0.1",
-    "@types/jsdom": "^11.0.1",
-    "@types/mocha": "^2.2.41",
-    "chai": "^4.0.2",
-    "jsdom": "^11.1.0",
-    "mocha": "^3.4.2",
-    "ts-node": "^3.2.0",
-    "typescript": "^2.4.1"
-  }
+	"name": "selekt",
+	"version": "0.0.1",
+	"description": "A basic dom element selection library",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ollieayre/selekt.git"
+	},
+	"main": "main.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "mocha './src/test/**/*.ts' --compilers ts:ts-node/register",
+		"clean": "rm -rf ./dist"
+	},
+	"author": "Ollie Ayre",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/chai": "^4.0.1",
+		"@types/jsdom": "^11.0.1",
+		"@types/mocha": "^2.2.41",
+		"chai": "^4.0.2",
+		"jsdom": "^11.1.0",
+		"mocha": "^3.4.2",
+		"ts-node": "^3.2.0",
+		"typescript": "^2.4.1"
+	}
 }

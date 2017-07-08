@@ -1,4 +1,4 @@
-import { getClass } from "../src/getClass";
+import { getClass } from "../getClass";
 import { JSDOM } from "jsdom";
 import { expect } from "chai";
 
