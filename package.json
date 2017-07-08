@@ -1,6 +1,6 @@
 {
 	"name": "selekt",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "A basic dom element selection library",
 	"repository": {
 		"type": "git",
