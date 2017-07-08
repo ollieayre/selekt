@@ -1,0 +1,11 @@
+{
+  "name": "selekt",
+  "version": "0.0.1",
+  "description": "A basic dom element selection library",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ollie Ayre",
+  "license": "MIT"
+}
