@@ -11,7 +11,7 @@
 		"build": "tsc",
 		"test": "mocha './src/test/**/*.ts' --compilers ts:ts-node/register",
 		"clean": "rm -rf ./dist",
-		"prepublish": "npm run build"
+		"prepare": "npm run build"
 	},
 	"author": "Ollie Ayre",
 	"license": "MIT",
